@@ -91,7 +91,7 @@
 						<configuration>
 							<rules>
 								<rule>
-									<elemment>BUNDLE</elemment>
+									<element>BUNDLE</element>
 									<limits>
 										<limit>
 											<counter>COMPLEXITY</counter>
@@ -111,7 +111,7 @@
 				<configuration>
 					<archive>
 						<manifestEntries>
-							<version>${project.version}}</version>
+							<version>${project.version}</version>
 						</manifestEntries>
 					</archive>
 				</configuration>
@@ -130,8 +130,7 @@
 			<url>http://localhost:8081/artifactory/Calc_Dev_Snapshot</url>
 		</repository>
 	</distributionManagement>
-
-<!--	<reporting>
+	<!--	<reporting>
 		<plugins>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
